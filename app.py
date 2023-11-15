@@ -6,7 +6,7 @@ from flask_restful import Api, Resource
 import os
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'postgres://wanderlust_db_kv6b_user:H4TfcxmDUZShtZs9YChZsKvCJb3pntAM@dpg-cl72uv8icrhc73d0ge10-a/wanderlust_db_kv6b')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'postgres://wanderlust_db_kv6b_user:H4TfcxmDUZShtZs9YChZsKvCJb3pntAM@dpg-cl72uv8icrhc73d0ge10-a.oregon-postgres.render.com/wanderlust_db_kv6b')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['LOG_WITH_GUNICORN'] = True
 
