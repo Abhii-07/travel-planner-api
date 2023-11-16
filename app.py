@@ -257,5 +257,5 @@ api.add_resource(ItineraryListResource, '/itineraries/<int:destination_id>')
 api.add_resource(ItineraryDetailResource, '/itineraries/<int:destination_id>/<int:itinerary_id>')
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
