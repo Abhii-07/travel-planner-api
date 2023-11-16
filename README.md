@@ -18,6 +18,7 @@ The Travel Planner API serves as a backend system for managing destinations, exp
 - **PUT /destinations/{id}:** Update details of a specific destination.
 - **DELETE /destinations/{id}:** Delete a destination.
 
+- **GET /expenses:** Get all expenses regardless of the destination.
 - **GET /expenses/{destination_id}:** Get expenses for a specific destination.
 - **POST /expenses/{destination_id}:** Add an expense related to a destination.
 - **PUT /expenses/{destination_id}/{expense_id}:** Update an expense.
