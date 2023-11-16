@@ -10,7 +10,6 @@ logging.basicConfig()
 logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'postgres://wanderlust_db_kv6b_user:H4TfcxmDUZShtZs9YChZsKvCJb3pntAM@dpg-cl72uv8icrhc73d0ge10-a.oregon-postgres.render.com/wanderlust_db_kv6b')
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:root@localhost/wanderlust_backend_db'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://wanderlust_db_nrjl_user:VmGCV1UCo6iqaSM3AowE5U4TqTCufYC9@dpg-clat58bmot1c7385bl0g-a.singapore-postgres.render.com/wanderlust_db_nrjl'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
