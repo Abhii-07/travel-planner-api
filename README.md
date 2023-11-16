@@ -3,6 +3,9 @@
 ## Objective ℹ️
 The Travel Planner API serves as a backend system for managing destinations, expenses, and itineraries for travel planning applications. This API provides endpoints to handle CRUD (Create, Read, Update, Delete) operations for destinations, expenses, and itineraries.
 
+## Video Explanation 
+- Link : https://drive.google.com/file/d/10qVR4Z1HC23jpWYBIR69MxZ9TLj2s9ul/view?usp=sharing
+
 ## User Flow 🚶‍♂️🚶‍♀️
 1. **Fetching Destinations:** Users can retrieve a list of destinations or get details of a specific destination.
 2. **Managing Expenses:** Allows users to add, update, delete expenses related to a destination.
